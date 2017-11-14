@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youli.testgaode.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017/11/14" />
+
+    <TextView
+        android:id="@+id/tv_jdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经度:"/>
+    <TextView
+        android:id="@+id/tv_wdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纬度:"/>
+    <TextView
+        android:id="@+id/tv_gdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高度:"/>
+</LinearLayout>
